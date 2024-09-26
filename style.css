@@ -1,0 +1,305 @@
+style.css Szinek {
+    color: #f4efc9;
+    color: hsl(11, 22%, 40%);
+    color: #5c7c8d;
+    color: #45b09c;
+    color: #2c4454;
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-image: url('hatterek/fobackground.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@media (max-width: 999px) {
+    body {
+        background-image: url('hatterek/telefonbackground.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+
+.navszoveg {
+    font-variant: small-caps;
+    font-size: 2rem;
+}
+
+.kereknav {
+    margin-top: 20px;
+    width: 97.5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    box-shadow: 4px 4px rgb(20, 20, 20);
+}
+
+main {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 85%;
+}
+
+.focim {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 3.5em;
+    color: #2c4454;
+    text-shadow: 1px 1px black;
+}
+
+.footerf {
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.fooldal {
+    color: #ffffff;
+    background-color: #5c7c8d;
+    box-shadow: 5px 3px 3px #384b55;
+    border-radius: 10px;
+    padding: 2% 6%;
+    width: 100%;
+}
+
+.fooldal h2 {
+    color: #45b09c;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 2px black;
+}
+
+.kozepre {
+    align-items: center;
+}
+
+.fooldal p {
+    font-size: 24px;
+    text-indent: 15px;
+}
+
+.nyitva {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.gomb {
+    font-size: 1.2rem;
+    float: right;
+    padding: 5px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-weight: bold;
+    color: white;
+}
+
+.gomb:hover,
+.gombjelentkezes:hover {
+    color: rgb(216, 216, 216);
+    border-bottom: 2px solid rgb(180, 180, 180);
+    text-shadow: 1px 1px 1px rgb(180, 180, 180);
+    text-decoration: none;
+    transform: scale(1.025);
+}
+
+.gombjelentkezes {
+    font-size: 1.2rem;
+    float: right;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-weight: bold;
+    color: white;
+}
+
+.fokep:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 3px #0000003f;
+}
+
+/*                 SZOFTVERES ODAL                      */
+
+.soft {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.soft>img {
+    max-height: 250px;
+    border-radius: 8px;
+}
+
+.softdivfelso {
+    height: 640px;
+    margin-bottom: 25px;
+    padding: 5%;
+    padding-bottom: 5px;
+}
+
+.softdiv {
+    height: 800px;
+    margin-bottom: 25px;
+    padding: 5%;
+    padding-bottom: 5px;
+}
+
+@media (max-width: 1200px) {
+    .softdiv {
+        height: 900px;
+    }
+
+    .softdivfelso {
+        height: 850px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .softdiv {
+        height: 900px;
+    }
+
+    .softdivfelso {
+        height: 850px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .softdiv {
+        height: 700px;
+    }
+
+    .softdivfelso {
+        height: 700px;
+    }
+}
+
+@media (max-width: 550px) {
+    .softdiv {
+        height: 780px;
+    }
+
+    .softdivfelso {
+        height: 780px;
+    }
+}
+
+
+
+
+
+
+/*                    KAMERAS OLDAL             */
+
+
+.kamerak {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.kamerak>img {
+    max-height: 250px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 3px black;
+}
+
+.kamdiv {
+    height: 850px;
+    margin-bottom: 25px;
+    padding: 5%;
+    padding-bottom: 5px;
+}
+
+.kamdiv>h2 {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 1000px) {
+    .kamdiv {
+        height: 950px;
+    }
+}
+
+@media (max-width: 768px) {
+    .kamdiv {
+        height: 850px;
+    }
+}
+
+
+/*                      KLUBB OLDAL                     */
+
+.valasztovonal {
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.171);
+    padding-bottom: 10px;
+}
+
+.valasztovonalreverse {
+    border-top: 2px dashed rgba(0, 0, 0, 0.171);
+    padding-top: 10px;
+}
+
+.jelentkezescont {
+    padding: 5%;
+}
+
+.jelentkezes {
+    padding-bottom: 25px;
+}
+
+.jelentkezesleadas {
+    margin: auto;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.mid {
+    text-align: left;
+}
+
+form {
+    transform: scale(1.02);
+    margin-left: 50px;
+}
+
+.form-control {
+    max-width: 75%;
+}
+
+label {
+    font-size: 1.25em;
+}
+
+@media (max-width: 900px) {
+    .mid {
+        text-align: center;
+        float: none;
+    }
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    height: 375px;
+}
+
+td {
+    font-size: 1.1em;
+}
+
+th {
+    font-size: 1.3em;
+    font-weight: bold;
+}

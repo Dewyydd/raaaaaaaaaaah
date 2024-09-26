@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Klubb</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark kereknav">
+        <a class="navbar-brand" href="index.html">
+            <img src="favicon.ico" style="width:50px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link navszoveg" href="kamerak.html">kamerák</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navszoveg" href="szoftver.html">szoftver</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navszoveg" href="galeria.html">galéria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active navszoveg" href="klubb.html">klubb</a>
+                </li>
+            </ul>
+            <span class="navbar-text d-none d-sm-none d-md-none d-lg-flex">
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="..." aria-label="Search"
+                        style="max-width: 150px;">
+                    <button class="btn btn-outline-success my-2 my-sm-0 navszoveg" type="submit">keresés</button>
+                    <!--&#x2315-->
+                </form>
+            </span>
+
+        </div>
+    </nav>
+
+    <main>
+        <h1 class="focim">KLUBB</h1>
+        <div class="row">
+            <div class="col-lg-6 col-12" style="margin-bottom: 30px;">
+                <div class="container fooldal jelentkezescont">
+                    <h2 class="mid">Feltételek</h2>
+                    <p>A fotós klubunkhoz való csatlakozás nyitott minden fotózás iránt érdeklődő
+                        számára, függetlenül
+                        attól, hogy kezdő vagy már profi szinten vagy. A részvételhez mindössze néhány alapfeltételnek
+                        kell megfelelni.</p>
+                    <div style="margin-bottom: 75px;" class="valasztovonalreverse">
+                        <p>A klub tevékenységeihez szükséged lesz egy fényképezőgépre. Ha még nincs
+                            saját kamerád, ne
+                            aggódj, mert lehetőséget biztosítunk bérlésre, így az eszköz hiánya nem jelent akadályt.
+                        </p>
+                        <a class="gombjelentkezes" href="kamerak.html">További információ</a>
+                    </div>
+                    <div style="margin-bottom: 75px;" class="valasztovonalreverse">
+                        <p>Mivel a fotós hobbi nem ér véget a kép elkészítésével, szükséged lesz egy
+                            képszerkesztő
+                            szoftverre is (például Adobe Lightroom, Photoshop vagy más hasonló program), amely lehetővé
+                            teszi a képeid finomhangolását és tökéletesítését.
+                        </p>
+                        <a class="gombjelentkezes" href="szoftver.html">További információ</a>
+                    </div>
+                    <p class="valasztovonalreverse">A klubunkban a kezdőktől a profikig mindenkit szívesen látunk. Ha
+                        épp most
+                        kezded a fotózást,
+                        segítünk elsajátítani az alapokat, míg a tapasztaltabb tagokkal lehetőséged lesz megosztani a
+                        tudásod és inspirálódni egymástól.
+                    </p>
+                    <h4 style="text-align: right;font-weight: bold;" class="valasztovonalreverse mid">
+                        Csatlakozz hozzánk, és fejlődj a közösségünkben!</h4>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12">
+                <div class="container fooldal jelentkezescont">
+                    <h2 class="mid">Jelentkezés</h2>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="">Email</label>
+                                <input type="email" class="form-control" id="" placeholder="Email" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="">Teljes név</label>
+                                <input type="text" class="form-control" id="" placeholder="Név" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="">Város</label>
+                                <input type="text" class="form-control" id="" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="">Van kamerád?</label><br>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="" value="Van"
+                                        checked>
+                                    <label class="form-check-label" for="">
+                                        Van
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id=""
+                                        value="Nincs">
+                                    <label class="form-check-label" for="">
+                                        Nincs
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <label for="">Milyen típusú kamerád van?</label>
+                                <select name="kamera" id="kamera" class="form-control">
+                                    <option value="" selected></option>
+                                    <option value="kutya">DSLR</option>
+                                    <option value="macska">MIRRORLESS</option>
+                                    <option value="hörcsög">COMPACT</option>
+                                    <option value="hal">SLR</option>
+                                </select><br>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-success">Jelentkezés</button>
+                    </form>
+                </div>
+                <div class="container fooldal" style="margin-top: 25px;">
+                    <table class="table-striped">
+                        <h2 class="mid">NYITVATARTÁS</h2>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>7:00 - 12:00</th>
+                                <th>12:00 - 13:00</th>
+                                <th>13:00 - 18:00</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Hétfő</th>
+                                <td>Nyitva</td>
+                                <td>Ebédszünet</td>
+                                <td>Nyitva</td>
+                            </tr>
+                            <tr>
+                                <th>Kedd</th>
+                                <td>Nyitva</td>
+                                <td>Ebédszünet</td>
+                                <td>Nyitva</td>
+                            </tr>
+                            <tr>
+                                <th>Szerda</th>
+                                <td>Nyitva</td>
+                                <td>Ebédszünet</td>
+                                <td>Nyitva</td>
+                            </tr>
+                            <tr>
+                                <th>Csütörtök</th>
+                                <td>Nyitva</td>
+                                <td>Ebédszünet</td>
+                                <td>Nyitva</td>
+                            </tr>
+                            <tr>
+                                <th>Péntek</th>
+                                <td>Nyitva</td>
+                                <td>Ebédszünet</td>
+                                <td>Nyitva</td>
+                            </tr>
+                            <tr>
+                                <th>Szombat</th>
+                                <td style="font-style: italic;">Zárva</td>
+                                <td style="font-style: italic;">Zárva</td>
+                                <td style="font-style: italic;">Zárva</td>
+                            </tr>
+                            <tr>
+                                <th>Vasárnap</th>
+                                <td style="font-style: italic;">Zárva</td>
+                                <td style="font-style: italic;">Zárva</td>
+                                <td style="font-style: italic;">Zárva</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!--FOOOTER-->
+    <footer class="footer bg-dark p-4 footerf" style="border-top: solid 15px rgb(20,20,20);">
+        <div class="container" style="color: white;">
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-md-6 text-center">
+                    <h4 style="margin-bottom: 1.2rem; font-weight: bold;">Közösségi Média</h4>
+                    <div class="row justify-content-center">
+                        <div class="col-6 col-md-3 mb-3 d-flex justify-content-center">
+                            <a href="https://www.facebook.com/" target="_blank"><img
+                                    src="kepek/icons/icons8-facebook-192.png" class="img-fluid"
+                                    style="max-width: 80px; max-height: 80px; "></a>
+                        </div>
+                        <div class="col-6 col-md-3 mb-3 d-flex justify-content-center">
+                            <a href="https://www.instagram.com/p/C6t1Dk5tgLI/" target="_blank"><img
+                                    src="kepek/icons/icons8-instagram-192.png" class="img-fluid"
+                                    style="max-width: 80px; max-height: 80px; "></a>
+                        </div>
+                        <div class="col-6 col-md-3 mb-3 d-flex justify-content-center">
+                            <a href="https://www.tiktok.com/@gurlixofficial/video/7285789775812955393"
+                                target="_blank"><img src="kepek/icons/icons8-tiktok-192.png" class="img-fluid"
+                                    style="max-width: 80px; max-height: 80px; "></a>
+                        </div>
+                        <div class="col-6 col-md-3 mb-3 d-flex justify-content-center">
+                            <a href="https://www.youtube.com/watch?v=EMlWK_XbEw4" target="_blank"><img
+                                    src="kepek/icons/icons8-youtube-192.png" class="img-fluid"
+                                    style="max-width: 80px; max-height: 80px; "></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                    <h4 style="font-weight: bold;">Elérhetőségek:</h4>
+                    <p style="margin-bottom: 5px;">Telefon: 06(20)9999999</p>
+                    <p style="margin-bottom: 5px;">Email: xyz@gmail.com</p>
+                    <p style="font-style: italic;">&copy; 2024 Minden jog fenntartva.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
