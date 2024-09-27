@@ -138,59 +138,40 @@ main {
     border-radius: 8px;
 }
 
-.softdivfelso {
-    height: 640px;
+.softdivfix {
     margin-bottom: 25px;
     padding: 5%;
     padding-bottom: 5px;
+    height: 95%;
 }
 
 .softdiv {
-    height: 800px;
-    margin-bottom: 25px;
-    padding: 5%;
-    padding-bottom: 5px;
+    height: fit-content;
 }
 
 @media (max-width: 1200px) {
-    .softdiv {
-        height: 900px;
-    }
-
     .softdivfelso {
-        height: 850px;
+        height: 800px;
     }
 
 }
 
 @media (max-width: 1000px) {
-    .softdiv {
-        height: 900px;
-    }
-
     .softdivfelso {
-        height: 850px;
+        height: 800px;
     }
 
 }
 
-@media (max-width: 800px) {
-    .softdiv {
-        height: 700px;
-    }
-
+@media (max-width: 799px) {
     .softdivfelso {
-        height: 700px;
+        height: 780px;
     }
 }
 
-@media (max-width: 550px) {
-    .softdiv {
-        height: 780px;
-    }
-
+@media (max-width: 765px) {
     .softdivfelso {
-        height: 780px;
+        height: 700px;
     }
 }
 
@@ -215,27 +196,19 @@ main {
     box-shadow: 2px 2px 3px black;
 }
 
-.kamdiv {
-    height: 850px;
+.kamdivbox {
     margin-bottom: 25px;
     padding: 5%;
     padding-bottom: 5px;
+    height: 95%;
+}
+
+.kamdiv {
+    height: fit-content;
 }
 
 .kamdiv>h2 {
     margin-bottom: 15px;
-}
-
-@media (max-width: 1000px) {
-    .kamdiv {
-        height: 950px;
-    }
-}
-
-@media (max-width: 768px) {
-    .kamdiv {
-        height: 850px;
-    }
 }
 
 
@@ -302,4 +275,28 @@ td {
 th {
     font-size: 1.3em;
     font-weight: bold;
+}
+
+/*                GALERIA OLDAL                */
+
+.galeriasorok {
+    margin-bottom: 50px;
+}
+
+figure {
+    padding: 5px;
+    text-align: center;
+}
+
+figure>img {
+    min-width: 300px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+figcaption>h3 {
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 3px black;
 }
