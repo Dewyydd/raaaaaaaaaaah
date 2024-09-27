@@ -7776,7 +7776,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1350px) {
   .d-xl-none {
     display: none !important;
   }
