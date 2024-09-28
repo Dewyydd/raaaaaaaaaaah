@@ -11,15 +11,16 @@ style.css Szinek {
 }
 
 body {
-    background-image: url('hatterek/fobackground.png');
+    background-image: url('hatterek/telefonbackground.png');
+
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size:cover
 }
 
-@media (max-width: 999px) {
+@media (min-width: 999px) {
     body {
-        background-image: url('hatterek/telefonbackground.png');
+        background-image: url('hatterek/fobackground.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -64,7 +65,7 @@ main {
 
 .fooldal {
     color: #ffffff;
-    background-color: #5c7c8d;
+    background-color: #5c7c8df6;
     box-shadow: 5px 3px 3px #384b55;
     border-radius: 10px;
     padding: 2% 6%;
